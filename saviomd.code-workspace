@@ -19,6 +19,7 @@
   ],
   "settings": {
     "color-highlight.markerType": "dot-after",
+    "diffEditor.renderSideBySide": false,
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     },
@@ -29,6 +30,10 @@
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "git.allowForcePush": true,
+    "git.autofetch": true,
+    "git.autoStash": true,
+    "git.pruneOnFetch": true
   }
 }
