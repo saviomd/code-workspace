@@ -4,6 +4,7 @@
       "dbaeumer.vscode-eslint",
       "eamodio.gitlens",
       "editorconfig.editorconfig",
+      "esbenp.prettier-vscode",
       "jpoissonnier.vscode-styled-components",
       "khaeransori.json2csv",
       "stylelint.vscode-stylelint"
@@ -19,9 +20,11 @@
   ],
   "settings": {
     "diffEditor.renderSideBySide": false,
+    "editor.bracketPairColorization.enabled": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+      "source.fixAll": true
     },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "all",
     "editor.tabSize": 2,
