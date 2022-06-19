@@ -1,11 +1,13 @@
 {
   "extensions": {
     "recommendations": [
+      "bradlc.vscode-tailwindcss",
       "dbaeumer.vscode-eslint",
       "eamodio.gitlens",
       "eg2.vscode-npm-script",
       "esbenp.prettier-vscode",
       "khaeransori.json2csv",
+      "pomdtr.excalidraw-editor",
       "styled-components.vscode-styled-components",
       "stylelint.vscode-stylelint"
     ]
@@ -29,11 +31,8 @@
     "editor.renderWhitespace": "all",
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
+    "eslint.workingDirectories": [{ "mode": "auto" }],
     "files.autoSave": "onFocusChange",
-    "files.eol": "\n",
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
     "git.allowForcePush": true,
     "git.autofetch": true,
     "git.autoStash": true,
