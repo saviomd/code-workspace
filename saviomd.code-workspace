@@ -7,6 +7,7 @@
       "eg2.vscode-npm-script",
       "esbenp.prettier-vscode",
       "khaeransori.json2csv",
+      "pkief.material-icon-theme",
       "pomdtr.excalidraw-editor",
       "styled-components.vscode-styled-components",
       "stylelint.vscode-stylelint"
@@ -29,6 +30,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "all",
+    "editor.stickyScroll.enabled": true,
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
     "eslint.workingDirectories": [{ "mode": "auto" }],
