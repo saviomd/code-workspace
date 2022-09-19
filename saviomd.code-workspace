@@ -15,10 +15,13 @@
   },
   "folders": [
     {
-      "path": "../../../github"
+      "path": "../../proclubshead"
     },
     {
-      "path": "../../../gitlab"
+      "path": "../../saviomd"
+    },
+    {
+      "path": "../../saviomd-beta"
     }
   ],
   "settings": {
@@ -38,6 +41,7 @@
     "git.allowForcePush": true,
     "git.autofetch": true,
     "git.autoStash": true,
-    "git.pruneOnFetch": true
+    "git.pruneOnFetch": true,
+    "workbench.iconTheme": "material-icon-theme"
   }
 }
