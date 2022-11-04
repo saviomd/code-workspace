@@ -10,7 +10,8 @@
       "pkief.material-icon-theme",
       "pomdtr.excalidraw-editor",
       "styled-components.vscode-styled-components",
-      "stylelint.vscode-stylelint"
+      "stylelint.vscode-stylelint",
+      "svelte.svelte-vscode"
     ]
   },
   "folders": [
@@ -42,6 +43,11 @@
     "git.autofetch": true,
     "git.autoStash": true,
     "git.pruneOnFetch": true,
+    "svelte.enable-ts-plugin": true,
+    "svelte.plugin.svelte.note-new-transformation": false,
+    "[svelte]": {
+      "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
     "workbench.iconTheme": "material-icon-theme"
   }
 }
