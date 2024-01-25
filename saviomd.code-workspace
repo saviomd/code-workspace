@@ -4,9 +4,10 @@
       "bradlc.vscode-tailwindcss",
       "dbaeumer.vscode-eslint",
       "eamodio.gitlens",
-      "eg2.vscode-npm-script",
       "esbenp.prettier-vscode",
+      "github.vscode-github-actions",
       "khaeransori.json2csv",
+      "mattpocock.ts-error-translator",
       "pkief.material-icon-theme",
       "pomdtr.excalidraw-editor",
       "styled-components.vscode-styled-components",
@@ -26,10 +27,10 @@
     }
   ],
   "settings": {
-    "diffEditor.renderSideBySide": false,
+    "diffEditor.renderSideBySide": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll": true
+      "source.fixAll": "explicit"
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
@@ -48,6 +49,7 @@
     "[svelte]": {
       "editor.defaultFormatter": "svelte.svelte-vscode"
     },
+    "terminal.integrated.defaultLocation": "editor",
     "workbench.iconTheme": "material-icon-theme"
   }
 }
